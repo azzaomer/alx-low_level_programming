@@ -3,8 +3,9 @@
 /**
  * main - prints a string using printf
  * Discription: C program that prints a string followd by a new line
- * Rturn: retuns int 0
+ * Return: retuns int 0
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
