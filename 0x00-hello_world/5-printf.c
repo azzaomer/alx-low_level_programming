@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-/*
- * main : prints a string using printf
- * discription : C program that prints a string followd by a new line
- * return : retuns int 0
+/**
+ * main - prints a string using printf
+ * Discription: C program that prints a string followd by a new line
+ * Rturn: retuns int 0
  */
 int main(void)
 {
