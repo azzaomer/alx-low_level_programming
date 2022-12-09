@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
  * main - Prints alphabets in lowercase
  * Return: 0
  */
