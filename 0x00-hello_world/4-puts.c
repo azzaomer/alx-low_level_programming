@@ -2,7 +2,7 @@
 
  /**
  * main - prints a string using puts() function
- * Discription: C program that prints string followed by a new line
+ * Description: C program that prints string followed by a new line
  * Return: zero
  */
 
