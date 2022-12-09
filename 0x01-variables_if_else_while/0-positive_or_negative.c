@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  * main - chechk randoly number if its negative or positive
  * Description: prints nigative or positive or zero
  * Return: zero (success)
