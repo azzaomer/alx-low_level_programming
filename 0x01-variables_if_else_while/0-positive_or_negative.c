@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - chechk randoly number if its negative or positive
+/*
+ * main - chechk randoly number if its negative or positive
  * Description: prints nigative or positive or zero
- * Return: zero (success)*/
-/* betty style doc for function main goes there */
-
+ * Return: zero (success)
+ */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d i zero\n", n);
+		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
 	return (0);
