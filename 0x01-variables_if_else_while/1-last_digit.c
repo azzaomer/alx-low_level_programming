@@ -4,7 +4,7 @@
 
 /*
  * main - Entry in to main
- * checks the last digit of an integar and prints out the resut
+ *
  * Return: 0 (Success)
  */
 int main(void)
