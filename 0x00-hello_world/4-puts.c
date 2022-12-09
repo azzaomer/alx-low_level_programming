@@ -1,8 +1,9 @@
 #include<stdio.h>
 
-/** main :  prints a string using puts() function 
- * discription : C program that prints exactly Programming is like building a multilingual puzzle, followed   *  by a new line
- * returns zero
+ /**
+ * main - prints a string using puts() function
+ * Discription: C program that prints string followed by a new line
+ * Return: zero
  */
 
 int main(void)
