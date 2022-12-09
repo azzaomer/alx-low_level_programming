@@ -3,14 +3,9 @@
 #include <time.h>
 
 /*
- * main - Entry point
- * Description: checks the last digit of an integar and prints out the result
- * Return: zero always success
- */
-
-/*
- * main - checks the last digit of an integar
- * Description: checks the last digit of an integar and prints out the resut
+ * main - Entry in to main
+ * checks the last digit of an integar and prints out the resut
+ * Return: 0 (Success)
  */
 int main(void)
 
