@@ -1,10 +1,10 @@
 #include<stdio.h>
 
- /**
- * main - prints a string using puts() function
- * Description: C program that prints string followed by a new line
- * Return: zero
- */
+/**
+ * main - Entry point
+ *
+ *Return: Always 0 (Success)
+ **/
 
 int main(void)
 {
