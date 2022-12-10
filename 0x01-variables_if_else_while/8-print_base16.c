@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(num);
 	}
-	for (letter = 'a'; letter <= 'f'; i++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
 		putchar(letter);
 	}
