@@ -18,8 +18,8 @@ int main(void)
 			putchar(num2);
 			if (!(num1 == 56 && num2 == 57))
 			{
-				putchar(' ');
 				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
