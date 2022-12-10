@@ -8,7 +8,7 @@ int main(void)
 {
 	char letter;
 
-	for (letter > 97; letter <= 122; letter++)
+	for (letter = 97; letter <= 122; letter++)
 	{
 		if (letter == 'e' || letter == 'q')
 			continue;
