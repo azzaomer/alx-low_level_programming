@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - Checks wheather a charecter is lower or uppercase.
+ * _islower - Return 1 if letter is lower 0 otherwise
+ *
  * @c: char type letter
+ * Description: Check letter if its lowercase
  * Retun: retuns 1 if lower and 0 otherwise
  */
 
