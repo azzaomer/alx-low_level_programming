@@ -1,13 +1,20 @@
+#include<stdio.h>
 #include "main.h"
-
 /**
- * main - cals prit_alphabet function to print alph in lowercase
+ * print_alphabet - prints alphabet using putchar function
  *
- * Return: returns zero when successful
+ * Retun: returns zero when success
  */
 
-int main(void)
+int print_alphabet (void)
 {
-	print_alphabet();
+	int i = 97;
+
+	while (i <= 122)
+	{
+		_putchar(i);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
