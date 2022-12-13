@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	char putchar [] = "_putchar";
+	char pchar [] = "_putchar";
 	int i = 0;
 
-	while (putchar[i] != '\0')
+	while (pchar[i] != '\0')
 	{
-		_putchar(putchar[i]);
+		_putchar(pchar[i]);
 		i++;
 	}
 	_putchar('\n');
