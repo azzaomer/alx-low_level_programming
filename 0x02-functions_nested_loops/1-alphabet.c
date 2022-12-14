@@ -1,10 +1,9 @@
-#include<stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet - Prints alphabet using putchar function
+ *print_alphabet - prints letter.
  *
- * Retun: returns zero when success
+ * Return: Always zero
  */
 
 int print_alphabet(void)
