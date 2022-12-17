@@ -2,16 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - chechk randoly number if its negative or positive
- * Description: prints nigative or positive or zero
+ * positive_or_nigative - chechk randoly number if its negative or positive
+ * @n: integer data type
  * Return: zero (success)
  */
-int positive_or_negative(void)
+int positive_or_negative(int n)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
