@@ -2,13 +2,14 @@
 
 /**
  * print_diagonal -  draws a diagonal line
- *
+ * @n: integer argument
  * Return: return 0
  */
 
 void print_diagonal(int n)
 {
-	int i = 0, j = 0;
+	int i, j;
+	
 
 	if (n <= 0)
 	{
