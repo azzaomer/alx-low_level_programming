@@ -14,15 +14,15 @@ int main(void)
 
 	while (num > div)
 	{
-			if (div > MaxFac)
-			{
-				MaxFac = div;
-				num = num / div;
-			}
-			div ++;
+		if (div > MaxFac)
+		{
+			MaxFac = div;
+			num = num / div;
+		}
+		div ++;
 	}
-	
-		printf("%lu", MaxFac);
-		return (0);
+	printf("%lu\n", MaxFac);
+	return (0);
+		
 }	
 
