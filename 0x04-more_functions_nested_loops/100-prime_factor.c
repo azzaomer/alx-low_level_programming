@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
- * main - finds and prints the largest prime factor of a nimber.
- *
- * Returns: zero.
+ * main - finds and prints the largest prime factor of a number.
+ * Return: zero.
  */
 
 int main(void)
@@ -19,10 +19,8 @@ int main(void)
 			MaxFac = div;
 			num = num / div;
 		}
-		div ++;
+		div++;
 	}
 	printf("%lu\n", MaxFac);
 	return (0);
-		
-}	
-
+}
