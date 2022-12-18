@@ -14,9 +14,12 @@ int main(void)
 
 	while (num > div)
 	{
-		if (div > MaxFac)
+		while (num % div == 0)
 		{
-			MaxFac = div;
+			if (div > MaxFac)
+			{
+				MaxFac = div;
+			}
 			num = num / div;
 		}
 		div++;
