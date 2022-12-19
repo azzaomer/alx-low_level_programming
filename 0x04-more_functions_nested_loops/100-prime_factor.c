@@ -21,7 +21,7 @@ int main(void)
 		}
 	}
 	/*At this point, num will be odd*/
-	for (div =3; div <= sqrt(num); div += 2)
+	for (div = 3; div <= sqrt(num); div += 2)
 	{
 		while (num % div == 0)
 		{
