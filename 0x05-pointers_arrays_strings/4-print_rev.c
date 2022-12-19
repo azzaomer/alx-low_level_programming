@@ -14,7 +14,7 @@ void print_rev(char *s)
 	int len;
 
 	len = strlen(s);
-	for(c = len - 1; c >= 0; c--)
+	for (c = len - 1; c >= 0; c--)
 	{
 		printf("%c", s[c]);
 	}
