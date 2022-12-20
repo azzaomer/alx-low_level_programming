@@ -11,22 +11,19 @@ void puts_half(char *str)
 {
 	int c = 0, n;
 
-	while (str[c] != '\0')
+	while (*(str + c))
 	{
 		c++;
 	}
-	if ((c + 1) % 2 != '0')
+	n = c / 2;
+	if (c  % 2)
 	{
-		n = (c -1) / 2;
+		n += 1;
 	}
-	else
+	while (n < c)
 	{
-		n = (c / 2);
-	}
-	n++;
-	for (c = n; str[c] != '\0'; c++)
-	{
-		printf("%c", str[c]);
+		printf("%c", *(str + j));
+		n++;
 	}
 	printf("\n");
 }
