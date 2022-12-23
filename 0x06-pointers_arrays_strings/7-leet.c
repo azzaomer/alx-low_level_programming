@@ -10,15 +10,15 @@
 char *leet(char *str)
 {
 	int i, j;
-	char  lee[] = {'A', '4', 'a', '4', 'E', '3', 'e', '3',
-		'O', '0', 'o', '0', 'T', '7', 't', '7', 'L', '1', 'l','1'};
+	char code[] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
+	char lee[] = {'a', 'e', 'o', 't', 'l', 'A', 'E', 'O', 'T', 'L'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; j < 20; j++)
+		for (j = 0; lee[j] != '\n'; j++)
 		{
 			if (str[i] == lee[j])
-				str[i] = lee[j + 1];
+				str[i] = code[j];
 		}
 	}
 	return (str);
