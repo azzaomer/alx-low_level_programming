@@ -11,7 +11,7 @@ char *cap_string(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0' ;i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0)
 		{
@@ -20,7 +20,6 @@ char *cap_string(char *str)
 				str[i] = str[i] - 32;
 			}
 		}
-		
 			if (str[i] == ' ' ||
 				str[i] == '\n' ||
 				str[i] == ',' ||
