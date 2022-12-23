@@ -15,7 +15,7 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; lee[j] != '\n'; j++)
+		for (j = 0; lee[j] != '\0'; j++)
 		{
 			if (str[i] == lee[j])
 				str[i] = code[j];
