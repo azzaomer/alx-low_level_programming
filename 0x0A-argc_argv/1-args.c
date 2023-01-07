@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - checks the code
- *
+ *@argc: number of command line arguments
+ *@argv: array of argument
  * Return: Always 0
  */
 
