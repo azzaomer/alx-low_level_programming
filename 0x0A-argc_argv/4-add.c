@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - checks the code
@@ -16,9 +17,9 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (atoi(argv[i]) < 0)
+			if (!isdigit(argv[i]))
 			{
-				printf("Error");
+				printf("Error\n");
 				break;
 			}
 			sum += atoi(argv[i]);
