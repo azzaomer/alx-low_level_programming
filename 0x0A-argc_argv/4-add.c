@@ -3,7 +3,7 @@
 
 /**
  * main - checks the code
- * @argc: number of arg 
+ * @argc: number of arg
  * @argv: values of command lin args
  * Return: Always 0
  */
@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 			if (atoi(argv[i]) < 0)
 			{
 				printf("Error");
-				return (1);
 				break;
 			}
 			sum += atoi(argv[i]);
