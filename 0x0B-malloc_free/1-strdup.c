@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		if (p)
 		{
 			while (i--)
-				p[i] = str[i]
+				p[i] = str[i];
 			return (str);
 		}
 	}
