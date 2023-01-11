@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	mat = (int **) malloc(sizeof(int *) * height);
-	if(!mat)
+	if (!mat)
 	{
 		return (NULL);
 	}
@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 		if (!mat[row])
 		{
 			while (--row > -1)
-				free (mat[row]);
+				free(mat[row]);
 			free(mat);
 			return (NULL);
 		}
