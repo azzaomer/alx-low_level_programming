@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - checks the code 
+ * main - checks the code
  * @argc: number of arguments
  * @argv: stores the arguments
  * Return: the value of chanege
@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
 	if (argc != 2)
 	{
-		printf("You should enter a number\n");
+		printf("Error\n");
 		return (1);
 	}
 	number = atoi(argv[1]);
