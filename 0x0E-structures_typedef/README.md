@@ -4,4 +4,7 @@
 1. init_dog:
 	function that initialize a variable of type struct dog
 2. print_dog:
-	a function that prints a struct dog
+	a function that prints a struct dog.
+3. dog.h
+	Define a new type dog_t as a new name for the type struct dog.
+4. 
