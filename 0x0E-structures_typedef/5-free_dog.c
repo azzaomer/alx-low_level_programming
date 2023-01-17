@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * free_dof - frees dog space
+ * free_dog - frees dog space
  * @d: pointer to dog struct
  * Return: void
  */
