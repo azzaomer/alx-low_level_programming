@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 	while (b[i])
 	{
 		if (b[i] > 49)
-		       return (0);
+			return (0);
 		else if (b[i] == 49)
 		{
 			num <<= 1;
