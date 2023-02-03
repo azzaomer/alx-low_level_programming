@@ -19,7 +19,7 @@ size_t list_len(const list_t *h)
 }
 
 /**
- * step_through - step through the list.
+ * read_element - step through the list.
  * @h: a pointer to a list_t
  *
  * Return: a count for every step through the list.
