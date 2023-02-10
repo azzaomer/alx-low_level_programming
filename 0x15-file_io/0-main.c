@@ -4,7 +4,8 @@
 
 /**
  * main - checks the code
- *
+ * @ac: command line args
+ * @av: value of arguments
  * Return: Always 0
  */
 
