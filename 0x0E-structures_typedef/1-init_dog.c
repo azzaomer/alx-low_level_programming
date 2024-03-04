@@ -4,9 +4,9 @@
 /**
  * init_dog - function to intialize dog struct
  * @d: pointer to dog struct
- * @name: dog na,e
- * @age: dog age
- * @owner: dog owmer
+ * @name: dog name
+ * @age: dogs' age
+ * @owner: The dog owmer
  * Return: nothing
  */
 
