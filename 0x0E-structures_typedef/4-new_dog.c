@@ -5,7 +5,7 @@
 /**
  * _strdup - duplicate string
  * @str: string
- * Return: null or pointer to the new copy
+ * Return: null/pointer to the new copy
  */
 
 char *_strdup(char *str)
@@ -33,7 +33,7 @@ char *_strdup(char *str)
  * new_dog - creates a new dog.
  * @name: name of the doge
  * @age: age of the dog
- * @owner: owner of the dof
+ * @owner: owner of the dog
  * Return: new dog
  */
 
