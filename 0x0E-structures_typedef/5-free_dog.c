@@ -5,7 +5,7 @@
 /**
  * free_dog - frees dog space
  * @d: pointer to dog struct
- * Return: void
+ * Return: nothing
  */
 
 void free_dog(dog_t *d)
