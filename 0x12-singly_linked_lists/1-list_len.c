@@ -4,7 +4,7 @@
 size_t read_element(const list_t *);
 
 /**
- * list_len - find the len of a list
+ * list_len - find the length of a list
  * @h: pointer to a list_t
  * Return: length of list
  */
