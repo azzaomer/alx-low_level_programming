@@ -4,7 +4,12 @@
 /**
  * main - checks the code
  *
+<<<<<<< HEAD
  * Return: Always returns 0
+=======
+ * Return: Always return 0
+ *
+>>>>>>> 6244582a02118972d9293cb9c45584856009fac3
  */
 
 int main(void)
