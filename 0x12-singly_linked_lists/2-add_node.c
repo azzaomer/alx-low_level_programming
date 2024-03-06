@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * add_node - append a node to the end
+ * add_node - add a node
  * @head: address to a node
  * @str: a string to add
  *
