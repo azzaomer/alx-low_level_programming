@@ -4,8 +4,8 @@
 
 list_t *new_node(const char *str);
 /**
- * add_node_end - add a new node to the end of a list
- * @head: pointer topointer of list
+ * add_node_end - apend a new node to the end of a list
+ * @head: pointer to pointer of list
  * @str: string to copy into node
  * Return: pointer to a list
  */
