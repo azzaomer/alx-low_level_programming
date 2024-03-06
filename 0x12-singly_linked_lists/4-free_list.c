@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_list - frees the memory of a list.
+ * free_list - frees the list memory.
  * @head: pointer to a list.
  *
  * Return: Nothing
