@@ -3,13 +3,18 @@
 hash_table_t* create_table(int size)
 {
     // Creates a new HashTable.
-    hash_table_t* table = (hash_table_t*) malloc(sizeof(hash_table_t));
-    table->size = size;
-    table->count = 0;
-    table->items = (hash_node_t**) calloc(table->size, sizeof(hash_node_t*));
+    hash_table_t* table = malloc(sizeof(hash_table_t));
+    unsigned long int i;
 
-    for (int i = 0; i < table->size; i++)
-        table->items[i] = NULL;
+    if (table == NULL)
+	    return (NULL);
+
+    table->size = size;
+    table->array = malloc(sizeof(hash_node_t*) * size);
+    if (table->array == NULL)
+	    return (NULL);
+    for (i = 0; i < size; i++)
+        table->array[i] = NULL;
 
     return table;
 }
