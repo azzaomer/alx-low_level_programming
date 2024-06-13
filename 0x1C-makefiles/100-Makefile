@@ -16,7 +16,7 @@ all: $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 clean:
 	$(RM) *~ $(NAME)
-oclean:	
+oclean:
 	$(RM) $(OBJ)
 fclean: clean oclean
 re: fclean all
